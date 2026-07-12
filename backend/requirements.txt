@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+websockets
+pydantic
+global-land-mask
+numpy
+onnxruntime
+torch
+torchvision
+ultralytics
+opencv-python-headless
+pillow
+requests
+scipy

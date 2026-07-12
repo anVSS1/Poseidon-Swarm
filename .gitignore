@@ -1,0 +1,34 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+pyvenv.cfg
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database
+*.db
+*.sqlite
+
+# Exclude model weights for IP protection
+models/**/*.pt
+models/**/*.onnx
+models/rl/checkpoint/
+models/rl/checkpoint_ppo_v1_backup/
